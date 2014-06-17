@@ -91,3 +91,8 @@ notifications:
   email:
     - oae-team@collab.sakaiproject.org
   irc: "irc.freenode.org#oae"
+
+cache:
+  apt: true
+  directories:
+    - node_modules
